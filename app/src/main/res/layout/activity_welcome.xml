@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/welcome_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/welcome_text"
+        android:id="@+id/welcomeText"
+        android:theme="@style/AppTheme"
+        android:textColor="@color/primary"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/welcomeDescription"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/welcome_description"
+        android:id="@+id/welcomeDescription"
+        android:theme="@style/AppTheme"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:singleLine="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="41dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_start"
+        android:id="@+id/mainStart"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/primary"
+        android:padding="10sp"
+        android:layout_marginBottom="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/AppTheme"
+        android:visibility="invisible"
+        />
+</RelativeLayout>

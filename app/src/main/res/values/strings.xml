@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StopBeat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">StopBeat</string>
+    <string name="title_activity_welcome">Welcome!</string>
+    <string name="welcome_text">Welcome to StopBeat!</string>
+    <string name="welcome_description">StopBeat lets you stop your music after a specified amount of time. Use it for timing your workouts and showers, or going to sleep! </string>
+    <string name="welcome_start">Get Started!</string>
+    <string name="main_step_one">Step 1: Switch to your favorite music app and start playing a song.</string>
+    <string name="main_step_two">Step 2: Enter when you want your music to stop playing.</string>
+    <string name="main_step_three">Step 3: Click start, then do whatever you gotta do!</string>
+    <string name="main_start">Start</string>
+    <string name="title_activity_start">StopBeat</string>
+
+</resources>
